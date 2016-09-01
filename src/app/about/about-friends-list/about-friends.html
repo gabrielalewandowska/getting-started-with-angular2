@@ -1,7 +1,3 @@
 <ul>
-    <li>Bob</li>
-    <li>Joe</li>
-    <li>Sally</li>
-    <li>Hector</li>
-    <li>Sam</li>
+    <li *ngFor="let friend of friends">{{ friend.name }}, {{friend.age}}, {{friend.gender}}</li>
 </ul>
